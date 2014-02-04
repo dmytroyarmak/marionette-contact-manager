@@ -7,10 +7,10 @@ Continuation of development backbone-contact-manager but using Marionette.js
 https://github.com/dmytroyarmak/backbone-contact-manager
 
 ## Demo
-http://dmytroyarmak.github.io/marrionette-contact-manager
+http://dmytroyarmak.github.io/marionette-contact-manager
 
 ## Slides
-http://dmytroyarmak.github.io/codeangels-marrionette-introduction
+http://dmytroyarmak.github.io/codeangels-marionette-introduction
 
 ## Tutorial
 - [Step 0 - Initialization of project](https://github.com/dmytroyarmak/marrionette-contact-manager/releases/tag/step-0)
