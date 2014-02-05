@@ -7,6 +7,7 @@
     "Marionette": false,
     "$": false,
     "_": false,
-    "console": false
+    "console": false,
+    "ContactManager": true
   }
 }
