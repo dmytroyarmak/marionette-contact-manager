@@ -17,11 +17,11 @@ ContactManager.addInitializer(function(data) {
         mainRegion: this.mainRegion
       });
 
-
-  router.on('route:home', controller.home, controller);
-  router.on('route:showContacts', controller.showContacts, controller);
-  router.on('route:newContact', controller.newContact, controller);
-  router.on('route:editContact', controller.editContact, controller);
+  router.processAppRoutes(controller, {
+    'contacts': 'showContacts',
+    'contacts/new': 'newContact',
+    'contacts/edit/:id': 'editContact'
+  });
 });
 
 ContactManager.on('initialize:after', function(options){

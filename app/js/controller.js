@@ -5,13 +5,6 @@ ContactManager.Controller = Marionette.Controller.extend({
     this._mainRegion = options.mainRegion;
   },
 
-  home: function() {
-    this._router.navigate('contacts', {
-      trigger: true,
-      replace: true
-    });
-  },
-
   showContacts: function() {
     var contactsView = new ContactManager.Views.Contacts({
       collection: this._contacts
