@@ -4,6 +4,7 @@
   "globals": {
     "ContactManager": false,
     "Backbone": false,
+    "Marionette": false,
     "$": false,
     "_": false,
     "console": false
