@@ -10,6 +10,7 @@
     "bootstrap": "~3.1.0",
     "backbone": "~1.1.0",
     "jquery": "~2.1.0",
-    "underscore": "~1.5.2"
+    "underscore": "~1.5.2",
+    "marionette": "~1.6.1"
   }
 }
