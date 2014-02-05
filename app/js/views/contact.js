@@ -7,10 +7,6 @@ ContactManager.Views.Contact = Marionette.ItemView.extend({
     'click .delete-contract': 'onClickDelete'
   },
 
-  modelEvents: {
-    'remove': 'close'
-  },
-
   onClickDelete: function(e) {
     e.preventDefault();
     this.model.collection.remove(this.model);
