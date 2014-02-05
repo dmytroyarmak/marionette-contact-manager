@@ -19,6 +19,8 @@ http://dmytroyarmak.github.io/codeangels-marionette-introduction
 - [Step 6 - Use Controller](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-6)
 - [Step 7 - Use AppRouter](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-7)
 - [Step 8 - Remove dependency to router](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-8)
+- [Step 9 - Store data in localStorage](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-9)
+- [Step 10 - Store data in RESTful backend ](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-10)
 
 ## Previous lesson
 https://github.com/dmytroyarmak/backbone-contact-manager

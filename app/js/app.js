@@ -9,7 +9,7 @@ ContactManager.addRegions({
 });
 
 ContactManager.addInitializer(function(data) {
-  var contacts = new ContactManager.Collections.Contacts(data.contacts),
+  var contacts = new ContactManager.Collections.Contacts(),
       router = new ContactManager.Router(),
       controller = new ContactManager.Controller({
         contacts: contacts,
