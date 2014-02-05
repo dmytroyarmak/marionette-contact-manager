@@ -16,6 +16,7 @@ http://dmytroyarmak.github.io/codeangels-marionette-introduction
 - [Step 3 - Use CompositeView](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-3)
 - [Step 4 - Use Region](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-4)
 - [Step 5 - Use Application](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-5)
+- [Step 6 - Use Controller](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-6)
 
 ## Previous lesson
 https://github.com/dmytroyarmak/backbone-contact-manager
