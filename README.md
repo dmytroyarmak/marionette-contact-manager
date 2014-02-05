@@ -3,9 +3,6 @@ Marionette Contact Manager
 
 Continuation of development backbone-contact-manager but using Marionette.js
 
-## Previous lesson
-https://github.com/dmytroyarmak/backbone-contact-manager
-
 ## Demo
 http://dmytroyarmak.github.io/marionette-contact-manager
 
@@ -18,3 +15,6 @@ http://dmytroyarmak.github.io/codeangels-marionette-introduction
 - [Step 2 - Use ItemView](https://github.com/dmytroyarmak/marrionette-contact-manager/releases/tag/step-2)
 - [Step 3 - Use CollectionView](https://github.com/dmytroyarmak/marrionette-contact-manager/releases/tag/step-3)
 - [Step 4 - Use CompositeView](https://github.com/dmytroyarmak/marrionette-contact-manager/releases/tag/step-4)
+
+## Previous lesson
+https://github.com/dmytroyarmak/backbone-contact-manager
