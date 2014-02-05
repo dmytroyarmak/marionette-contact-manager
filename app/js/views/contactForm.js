@@ -11,6 +11,10 @@ ContactManager.Views.ContactForm = Marionette.ItemView.extend({
     'submit .contract-form': 'onFormSubmit'
   },
 
+  triggers: {
+    'click .form-cancel-btn': 'form:canceled'
+  },
+
   serializeData: function() {
     return _.extend(this.model.toJSON(), {
       isNew: this.model.isNew()

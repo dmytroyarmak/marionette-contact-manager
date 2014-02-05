@@ -25,7 +25,7 @@
     <script type="text/template" id="tpl-contacts">
       <h2 class="page-header text-center">List of contacts</h2>
       <p class="text-center">
-        <a href="#contacts/new" class="btn btn-lg btn-outline">Add Contact</a>
+        <a href="#contacts/new" class="btn btn-lg btn-outline add-contact-btn">Add Contact</a>
       </p>
       <ul class="media-list row contacts-container"></ul>
     </script>
@@ -38,7 +38,7 @@
         <h3>
           <%- name %>
           <small>
-            <a href="#contacts/edit/<%- id %>"><span class="glyphicon glyphicon-pencil"></span></a>
+            <a href="#contacts/edit/<%- id %>"><span class="glyphicon glyphicon-pencil edit-contract"></span></a>
             <a href="#contacts/delete/<%- id %>" class="delete-contract">
               <span class="glyphicon glyphicon-trash"></span>
             </a>
@@ -82,7 +82,7 @@
             <button type="submit" class="btn btn-outline btn-lg btn-block">Submit</button>
           </div>
           <div class="col-sm-3">
-            <a href="#contacts" class="btn btn-outline btn-lg btn-block">Cancel</a>
+            <a href="#contacts" class="btn btn-outline btn-lg btn-block form-cancel-btn">Cancel</a>
           </div>
         </div>
       </form>

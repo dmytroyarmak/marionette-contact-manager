@@ -17,6 +17,8 @@ http://dmytroyarmak.github.io/codeangels-marionette-introduction
 - [Step 4 - Use Region](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-4)
 - [Step 5 - Use Application](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-5)
 - [Step 6 - Use Controller](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-6)
+- [Step 7 - Use AppRouter](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-7)
+- [Step 8 - Remove dependency to router](https://github.com/dmytroyarmak/marionette-contact-manager/releases/tag/step-8)
 
 ## Previous lesson
 https://github.com/dmytroyarmak/backbone-contact-manager

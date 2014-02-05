@@ -10,7 +10,17 @@ ContactManager.Controller = Marionette.Controller.extend({
       collection: this._contacts
     });
 
+    this.listenTo(contactsView, 'addContact:clicked', this.newContact);
+    this.listenTo(contactsView, 'itemview:delete:clicked', function(contactView) {
+      this._contacts.remove(contactView.model);
+    });
+    this.listenTo(contactsView, 'itemview:edit:clicked', function(contactView) {
+      this.editContact(contactView.model.id);
+    });
+
     ContactManager.mainRegion.show(contactsView);
+
+    this._router.navigate('contacts');
   },
 
   newContact: function() {
@@ -21,10 +31,14 @@ ContactManager.Controller = Marionette.Controller.extend({
     this.listenTo(newContactForm, 'form:submitted', function(attrs) {
       attrs.id = this._contacts.isEmpty() ? 1 : (_.max(this._contacts.pluck('id')) + 1);
       this._contacts.add(attrs);
-      this._router.navigate('contacts', true);
+      this.showContacts();
     });
 
+    this.listenTo(newContactForm, 'form:canceled', this.showContacts);
+
     ContactManager.mainRegion.show(newContactForm);
+
+    this._router.navigate('contacts/new');
   },
 
   editContact: function(id) {
@@ -38,12 +52,16 @@ ContactManager.Controller = Marionette.Controller.extend({
 
       this.listenTo(editContactForm, 'form:submitted', function(attrs) {
         contact.set(attrs);
-        this._router.navigate('contacts', true);
+        this.showContacts();
       });
 
+      this.listenTo(editContactForm, 'form:canceled', this.showContacts);
+
       ContactManager.mainRegion.show(editContactForm);
+
+      this._router.navigate('contacts/edit/' + id);
     } else {
-      this._router.navigate('contacts', true);
+      this.showContacts();
     }
   }
 });
